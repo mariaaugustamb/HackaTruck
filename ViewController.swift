@@ -28,6 +28,10 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
         mapView.showsUserLocation = true
         
+        //da zoom da localizacao
+        
+        mapView.setUserTrackingMode(.follow, animated: true)
+        
         
         
     }
